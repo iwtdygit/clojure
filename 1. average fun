@@ -1,0 +1,5 @@
+(defn average 
+         [numbers] 
+         (/ (apply + numbers) (count numbers)))
+       
+(average [60 80 100 400]) 
